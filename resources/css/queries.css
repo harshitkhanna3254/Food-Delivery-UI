@@ -1,0 +1,52 @@
+/* Big-Tablets to Laptops */
+@media only screen and (max-width:1200px) {
+
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+
+}
+
+
+/* Tabblets to Big-Tablets */
+@media only screen and (max-width:1023px) {
+    body {
+        font-size: 18px;
+    }
+
+    section {  padding: 60px 0; }
+
+    .long-text {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .steps-box { margin-top: 10px;}
+
+    .steps-box:last-child {margin-top: 10px;}
+
+    .works-step{ margin-bottom: 30px;}
+
+    .app-screen {
+        width: 50%;
+    }
+
+    .btn-app img{
+        margin-right: 0;
+    }
+}
+
+/* Phones to Small-Tablets */
+@media only screen and (max-width:767px) {
+    
+}
+
+/* Phones */
+@media only screen and (max-width:480px) {
+
+}
